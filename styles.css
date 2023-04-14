@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+
+
+div {
+    background: white;
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 6px gainsboro;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+input {
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    height: 50px;
+    border: 3px solid gainsboro;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+button {
+    box-shadow: inset 2px 2px 6px #fff,
+                      2px 2px 6px rgba(0, 0, 0, .16);
+    background-color: gainsboro;
+    border: none;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.equality {
+    width: 120px;
+    border-radius: 5%;
+    box-shadow: inset 2px 2px 6px #fff,
+                      2px 2px 6px rgba(0, 0, 0, .16);
+    background-color: gainsboro;
+} 
+
