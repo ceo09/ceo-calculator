@@ -22,7 +22,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -39,8 +39,8 @@ input {
 }
 
 button {
-    box-shadow: inset 2px 2px 6px #fff,
-                      2px 2px 6px rgba(0, 0, 0, .16);
+    box-shadow: inset 1px 1px 1px #fff,
+                      1px 1px 1px rgba(0, 0, 0, .16);
     background-color: gainsboro;
     border: none;
     border-radius: 10%;
@@ -54,8 +54,32 @@ button {
 .equality {
     width: 120px;
     border-radius: 5%;
-    box-shadow: inset 2px 2px 6px #fff,
-                      2px 2px 6px rgba(0, 0, 0, .16);
+    box-shadow: inset 1px 1px 1px #fff,
+                      1px 1px 1px rgba(0, 0, 0, .16);
     background-color: gainsboro;
 } 
 
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background: rgb(49, 175, 233);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.down i {
+    padding: 5px;
+}
+
+.download-section a {
+    text-decoration: none;
+}
